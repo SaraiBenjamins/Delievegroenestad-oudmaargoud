@@ -1,0 +1,104 @@
+body {
+background-color: #E4E2DD;
+}
+
+nav ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9d947e;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.logohome {
+    margin: -30px 0 0 -30px;
+    width: 120%;
+    display: block; 
+}
+
+.inhetkorttekst {
+    width: 70%;
+    height: 100%;
+    margin: -88px 0 -5px 18px;
+}
+
+
+.inhetkort {
+    color: white;
+    line-height: 1,5;
+    font-size: 15px;
+    margin: -120px 90px 0px -110px;
+    padding: 0px;
+    text-align: justify;
+
+    display: inline-block;
+    border-radius: 18px;
+    margin: -94px 35px 0 40px;
+    padding: 10px, 2px, 5px, 2px;
+    border: 22px solid #B66643;
+    background-color: #B66643;
+}
+
+.stoelfotohome, .sfeerfotohome {
+    width: 45%;
+    position: absolute;
+    height: auto;
+}
+
+.stoelfotohome {
+    margin: -50px 0 50px 22px;
+}
+
+.sfeerfotohome {
+    margin-left: -163px;
+    padding-bottom: 30px;
+}
+.omglogoindex {
+    width: 40%;
+    margin: -50px 0 50px 190px;
+}
+
+.omglogoduurzaam {
+    width: 40%;
+    position: absolute;
+    margin: -30px 0 0 -30px;
+}
+
+.fotoduurzaam1, .fotoduurzaam2 {
+    width: 55%;
+    position: absolute;
+    height: auto;
+}
+
+.fotoduurzaam1 {
+    margin-left: -45px;
+}
+
+.fotoduurzaam2 {
+    margin-left: 120px;
+}
+
+.duurzaamtekst {
+    position: relative;
+    width: 85%;
+    margin-top: 160px;
+    margin-left: -27.8px;
+}
