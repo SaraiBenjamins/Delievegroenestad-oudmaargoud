@@ -1,5 +1,5 @@
 body {
-background-color: #E4E2DD;
+    background-color: #E4E2DD;
 }
 
 nav ul {
@@ -40,7 +40,6 @@ nav a:hover {
     margin: -88px 0 -5px 18px;
 }
 
-
 .inhetkort {
     color: white;
     line-height: 1,5;
@@ -76,7 +75,7 @@ nav a:hover {
     margin: -50px 0 50px 190px;
 }
 
-.omglogoduurzaam {
+.omglogoduurzaam, .omglogoabout, .omglogobrands {
     width: 40%;
     position: absolute;
     margin: -30px 0 0 -30px;
@@ -90,15 +89,63 @@ nav a:hover {
 
 .fotoduurzaam1 {
     margin-left: -45px;
+    margin-top: 10px;
 }
 
 .fotoduurzaam2 {
     margin-left: 120px;
+    margin-top: 30px;
 }
 
 .duurzaamtekst {
     position: relative;
     width: 85%;
-    margin-top: 160px;
-    margin-left: -27.8px;
+    margin: 198px 0 0 -27.8px;
+}
+
+.waaromduurzaam {
+    width: 100%;
+    padding: 0px;
+    margin: -180px 0 0 18px;
+}
+
+.duurzaamtekst1, .duurzaamtekst2 {
+    color: white;
+    line-height: 1.2;
+    font-size: 16.5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    border: 22px solid #763523;
+    background-color: #763523;
+    border-radius: 18px;
+}
+
+.duurzaamtekst1 {
+    margin: -148.5px 23px 0 23px;
+}
+
+.duurzaamtekst2 {
+    position: relative;
+    top: -167px;
+    margin: 0 25px -30px 100px;
+}
+
+.fotoduurzaam3 {
+    width: 100%;
+    margin: -266px 0 0 -25px;
+}
+
+.icoonblaadje {
+    position: relative;
+    width: 60%;
+    margin: -70px 0 0 160px;
+}
+
+.icoonblaadje2 {
+    position: relative;
+    width: 53%;
+    margin: 0 0 -160px -42px;
+    top: -433px;
 }
