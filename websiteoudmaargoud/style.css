@@ -54,30 +54,18 @@ nav a {
     background-color: #B66643;
 }
 
-.stoelfotohome, .sfeerfotohome {
-<<<<<<< HEAD
+.stoelfotohome {
+    position: relative;
     width: 47%;
-=======
->>>>>>> aa0394dcc05fd9c03abe96ee653c700d189f462f
+    margin-top: -180px;
+    margin-left: 20px;
+}
+
+.sfeerfotohome {
     position: absolute;
     height: auto;
-}
-
-.stoelfotohome {
-<<<<<<< HEAD
-    margin: -40px 0 50px 8px;
-}
-
-.sfeerfotohome {
-=======
-    width: 43%;
-    margin: -40px 0 50px 22px;
-}
-
-.sfeerfotohome {
     width: 47%;
->>>>>>> aa0394dcc05fd9c03abe96ee653c700d189f462f
-    margin: 9px 0 0 -185px;
+    margin: -130px 0 0 -20px;
     padding-bottom: 20px;
 }
 
@@ -189,10 +177,7 @@ nav a {
     margin: 163px 26px 0 123px;
     border-radius: 0 0 18px 18px;
     padding-left: 6px;
-<<<<<<< HEAD
-=======
     font-family:'Times New Roman', Times, serif
->>>>>>> aa0394dcc05fd9c03abe96ee653c700d189f462f
 }
 
 .fotoabout1 {
@@ -412,10 +397,3 @@ nav a {
     border: 12px solid #9D9F7C;
     background-color: #9D9F7C;
 }
-<<<<<<< HEAD
-
-.west p {
-    margin-bottom: 80px;
-}
-=======
->>>>>>> aa0394dcc05fd9c03abe96ee653c700d189f462f
