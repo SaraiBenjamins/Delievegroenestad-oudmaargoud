@@ -54,19 +54,18 @@ nav a {
     background-color: #B66643;
 }
 
-.stoelfotohome, .sfeerfotohome {
-    position: absolute;
-    height: auto;
-}
-
 .stoelfotohome {
-    width: 43%;
-    margin: -40px 0 50px 22px;
+    position: relative;
+    width: 47%;
+    margin-top: -180px;
+    margin-left: 20px;
 }
 
 .sfeerfotohome {
+    position: absolute;
+    height: auto;
     width: 47%;
-    margin: 9px 0 0 -185px;
+    margin: -130px 0 0 -20px;
     padding-bottom: 20px;
 }
 
