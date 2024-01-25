@@ -12,6 +12,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 nav li {
@@ -29,7 +30,8 @@ nav a:hover {
 }
 
 .logohome {
-    margin: -45px 0 0 -50px;
+    position: relative;
+    margin: -26px 0 0 -53px;
     width: 130%;
     display: block; 
 }
@@ -43,7 +45,7 @@ nav a:hover {
 .inhetkort {
     color: white;
     line-height: 1,5;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     margin: -120px 90px 0px -110px;
     padding: 0px;
@@ -57,7 +59,7 @@ nav a:hover {
 }
 
 .stoelfotohome, .sfeerfotohome {
-    width: 48%;
+    width: 47%;
     position: absolute;
     height: auto;
 }
@@ -67,13 +69,14 @@ nav a:hover {
 }
 
 .sfeerfotohome {
-    margin: 9px 0 0 -180px;
+    margin: 9px 0 0 -185px;
     padding-bottom: 20px;
 }
+
 .omglogoindex {
     width: 50%;
     position: relative;
-    margin: -70px 0 50px 170px;
+    margin: -65px 0 40px 170px;
 }
 
 .omglogoduurzaam, .omglogoabout, .omglogobrands {
@@ -83,37 +86,35 @@ nav a:hover {
 }
 
 .fotoduurzaam1, .fotoduurzaam2 {
-    width: 55%;
+    width: 58%;
     position: absolute;
     height: auto;
 }
 
 .fotoduurzaam1 {
-    margin-left: -50px;
-    margin-top: 50px;
+    margin: 30px 0 0 -57px;
 }
 
 .fotoduurzaam2 {
-    margin-left: 123px;
-    margin-top: 30px;
+    margin: 10px 0 0 118px;
 }
 
 .duurzaamtekst {
     position: relative;
-    width: 85%;
-    margin: 198px 0 0 -33px;
+    width: 90%;
+    margin: 200px 0 0 -39px;
 }
 
 .waaromduurzaam {
-    width: 100%;
+    width: 110%;
     padding: 0px;
-    margin: -180px 0 0 18px;
+    margin: -180px 0 0 -4px;
 }
 
 .duurzaamtekst1, .duurzaamtekst2 {
     color: white;
     line-height: 1.2;
-    font-size: 16.5px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     display: inline-block;
@@ -124,7 +125,7 @@ nav a:hover {
 }
 
 .duurzaamtekst1 {
-    margin: -148px 20px 0 20px;
+    margin: -161px 20px 0 20px;
 }
 
 .duurzaamtekst2 {
@@ -148,7 +149,7 @@ nav a:hover {
     position: relative;
     width: 51%;
     margin: 0 0 -160px -42px;
-    top: -433px;
+    top: -450px;
 }
 
 .abouttekst {
@@ -162,9 +163,8 @@ nav a:hover {
 .vintage, .vintageuitleg {
     position: absolute;
     display: inline-block;
-    border: 12px solid #B66643;
-    background-color: #B66643;
-    color: white;
+    border: 12px solid #9D9F7C;
+    background-color: #9D9F7C;
     border-radius: 18px;
 }
 
@@ -172,15 +172,15 @@ nav a:hover {
     font-style: italic;
     font-size: 24px;
     top: 120px;
-    padding: 0 5px 13px 8px;
+    padding: 0 5px 13px 7px;
     margin-left: 123px;
 }
 
 .vintageuitleg {
-    font-size: 17px;
-    margin: 165px 25px 0 123px;
+    font-size: 17.5px;
+    margin: 163px 26px 0 123px;
     border-radius: 0 0 18px 18px;
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 .fotoabout1 {
@@ -194,29 +194,124 @@ nav a:hover {
     margin: 383.5px 0 0 66px;
 }
 
-.uniekestijl {
+.uniekestijl, .nostalgie, .duurzaamheid, .investering, .zelfexpressie {
     position: absolute;
     display: inline-block;
-    border: 12px solid #B66643;
-    background-color: #B66643;
     color: white;
     border-radius: 18px;
     margin: 0 24px 0 12px;
+}
+
+.uniekestijl h2, .nostalgie h2, .duurzaamheid h2, .investering h2, .zelfexpressie h2 {
+    font-size: 27px;
+}
+.uniekestijl p, .nostalgie p, .duurzaamheid p, .investering p, .zelfexpressie p {
+    font-size: 16.5px;
+    text-align: justify;
+    margin: 7px 13px 7px 13px;
+    padding-bottom: 7px;
+}
+.uniekestijl h2, .duurzaamheid h2, .zelfexpressie h2 {
+    text-align: right;
+}
+
+.nostalgie h2, .investering h2 {
+    margin: 7px 0 0 13px;
+}
+
+.duurzaamheid h2, .zelfexpressie h2 {
+    margin: 7px 13px 0 0;
+}
+
+.uniekestijl {
     top: 542px;
+    border: 12px solid #B66643;
+    background-color: #B66643;
+    color: white;
+}
+
+.iconabout1 {
+    position: absolute;
+    width: 48%;
+    margin-top: 910px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.iconabout2 {
+    position: absolute;
+    width: 40%;
+    margin-left: 220px;
+    top: 630px;
+    z-index: 1;
 }
 
 .uniekestijl h2 {
-    font-size: 27px;
-    margin: 10px 0 0 154px;
+    margin: 5px 10px 0 0;
     padding-bottom: 7px;
 }
 
 .uniekestijl p {
-    text-align: right;
-    font-size: 16.5px;
-    margin: 0 10px 0 0;
+    text-align: justify;
+    margin: 0 10px 0 10px;
     padding-bottom: 10px;
 }
+
+.nostalgie {
+    margin-top: 40px;
+    border: 12px solid #DFC393;
+    background-color: #DFC393;
+    color: black;
+}
+
+.duurzaamheid {
+    margin-top: 285px;
+    border: 12px solid #86A098;
+    background-color: #86A098;
+}
+
+.investering {
+    margin-top: 530px;
+    border: 12px solid #9D9F7C;
+    background-color: #9D9F7C;
+    color: black;
+}
+
+.zelfexpressie {
+    margin-top: 738px;
+    border: 12px solid #763523;
+    background-color: #763523;
+}
+
+.about1 {
+    position: absolute;
+    width: 57%;
+    margin-top: 875px;
+    right: 168px;
+}
+
+.about2 {
+    position: absolute;
+    width: 57%;
+    margin-top: 930px;
+    margin-left: 158px;
+}
+
+.about3 {
+    position: absolute;
+    width: 57%;
+    margin-top: 1135px;
+    right: 168px;
+}
+
+.about4 {
+    position: absolute;
+    width: 57%;
+    margin-top: 1170px;
+    margin-left: 158px;
+}
+
+
 
 
 
