@@ -55,16 +55,17 @@ nav a {
 }
 
 .stoelfotohome, .sfeerfotohome {
-    width: 47%;
     position: absolute;
     height: auto;
 }
 
 .stoelfotohome {
-    margin: -40px 0 50px 8px;
+    width: 43%;
+    margin: -40px 0 50px 22px;
 }
 
 .sfeerfotohome {
+    width: 47%;
     margin: 9px 0 0 -185px;
     padding-bottom: 20px;
 }
@@ -177,6 +178,7 @@ nav a {
     margin: 163px 26px 0 123px;
     border-radius: 0 0 18px 18px;
     padding-left: 6px;
+    font-family:'Times New Roman', Times, serif
 }
 
 .fotoabout1 {
@@ -395,8 +397,4 @@ nav a {
     margin-top: 2197px;
     border: 12px solid #9D9F7C;
     background-color: #9D9F7C;
-}
-
-.west p {
-    margin-bottom: 80px;
 }
