@@ -1,0 +1,303 @@
+body {
+    background-color: #E4E2DD;
+}
+
+nav ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9d947e;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.logohome {
+    position: relative;
+    margin: -26px 0 0 -53px;
+    width: 130%;
+    display: block; 
+}
+
+.inhetkorttekst {
+    width: 90%;
+    height: auto;
+    margin: -110px 0 -28px -7px;
+}
+
+.inhetkort {
+    color: white;
+    line-height: 1,5;
+    font-size: 19px;
+    font-weight: 400;
+    margin: -120px 90px 0px -110px;
+    padding: 0px;
+    text-align: justify;
+    display: inline-block;
+    border-radius: 18px;
+    margin: -94px 29px 0 27px;
+    padding: 10px, 2px, 5px, 2px;
+    border: 25px solid #B66643;
+    background-color: #B66643;
+}
+
+.stoelfotohome, .sfeerfotohome {
+    width: 47%;
+    position: absolute;
+    height: auto;
+}
+
+.stoelfotohome {
+    margin: -40px 0 50px 8px;
+}
+
+.sfeerfotohome {
+    margin: 9px 0 0 -185px;
+    padding-bottom: 20px;
+}
+
+.omglogoindex {
+    width: 50%;
+    position: relative;
+    margin: -65px 0 40px 170px;
+}
+
+.omglogoduurzaam, .omglogoabout, .omglogobrands {
+    width: 40%;
+    position: absolute;
+    margin: -30px 0 0 -30px;
+}
+
+.fotoduurzaam1, .fotoduurzaam2 {
+    width: 58%;
+    position: absolute;
+    height: auto;
+}
+
+.fotoduurzaam1 {
+    margin: 30px 0 0 -57px;
+}
+
+.fotoduurzaam2 {
+    margin: 10px 0 0 118px;
+}
+
+.duurzaamtekst {
+    position: relative;
+    width: 90%;
+    margin: 200px 0 0 -39px;
+}
+
+.waaromduurzaam {
+    width: 110%;
+    padding: 0px;
+    margin: -180px 0 0 -4px;
+}
+
+.duurzaamtekst1, .duurzaamtekst2 {
+    color: white;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    border: 22px solid #763523;
+    background-color: #763523;
+    border-radius: 18px;
+}
+
+.duurzaamtekst1 {
+    margin: -161px 20px 0 20px;
+}
+
+.duurzaamtekst2 {
+    position: relative;
+    top: -167px;
+    margin: 0 25px -30px 100px;
+}
+
+.fotoduurzaam3 {
+    width: 100%;
+    margin: -266px 0 0 -25px;
+}
+
+.icoonblaadje {
+    position: relative;
+    width: 60%;
+    margin: -70px 0 0 160px;
+}
+
+.icoonblaadje2 {
+    position: relative;
+    width: 51%;
+    margin: 0 0 -160px -42px;
+    top: -450px;
+}
+
+.abouttekst {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: -108px;
+}
+
+.vintage, .vintageuitleg {
+    position: absolute;
+    display: inline-block;
+    border: 12px solid #9D9F7C;
+    background-color: #9D9F7C;
+    border-radius: 18px;
+}
+
+.vintage {
+    font-style: italic;
+    font-size: 24px;
+    top: 120px;
+    padding: 0 5px 13px 7px;
+    margin-left: 123px;
+}
+
+.vintageuitleg {
+    font-size: 17.5px;
+    margin: 163px 26px 0 123px;
+    border-radius: 0 0 18px 18px;
+    padding-left: 6px;
+}
+
+.fotoabout1 {
+    position: absolute;
+    width: 62.5%;
+    margin: 236px 0 0 116px;
+}
+
+.waaromvintage {
+    width: 73%;
+    margin: 383.5px 0 0 66px;
+}
+
+.uniekestijl, .nostalgie, .duurzaamheid, .investering, .zelfexpressie {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    border-radius: 18px;
+    margin: 0 24px 0 12px;
+}
+
+.uniekestijl h2, .nostalgie h2, .duurzaamheid h2, .investering h2, .zelfexpressie h2 {
+    font-size: 27px;
+}
+.uniekestijl p, .nostalgie p, .duurzaamheid p, .investering p, .zelfexpressie p {
+    font-size: 16.5px;
+    text-align: justify;
+    margin: 7px 13px 7px 13px;
+    padding-bottom: 7px;
+}
+.uniekestijl h2, .duurzaamheid h2, .zelfexpressie h2 {
+    text-align: right;
+}
+
+.nostalgie h2, .investering h2 {
+    margin: 7px 0 0 13px;
+}
+
+.duurzaamheid h2, .zelfexpressie h2 {
+    margin: 7px 13px 0 0;
+}
+
+.uniekestijl {
+    top: 542px;
+    border: 12px solid #B66643;
+    background-color: #B66643;
+    color: white;
+}
+
+.uniekestijl h2 {
+    margin: 5px 10px 0 0;
+    padding-bottom: 7px;
+}
+
+.uniekestijl p {
+    text-align: justify;
+    margin: 0 10px 0 10px;
+    padding-bottom: 10px;
+}
+
+.nostalgie {
+    margin-top: 40px;
+    border: 12px solid #DFC393;
+    background-color: #DFC393;
+    color: black;
+}
+
+.duurzaamheid {
+    margin-top: 285px;
+    border: 12px solid #86A098;
+    background-color: #86A098;
+}
+
+.investering {
+    margin-top: 530px;
+    border: 12px solid #9D9F7C;
+    background-color: #9D9F7C;
+    color: black;
+}
+
+.zelfexpressie {
+    margin-top: 738px;
+    border: 12px solid #763523;
+    background-color: #763523;
+}
+
+.about1 {
+    position: absolute;
+    width: 57%;
+    margin-top: 875px;
+    right: 168px;
+}
+
+.about2 {
+    position: absolute;
+    width: 57%;
+    margin-top: 930px;
+    margin-left: 158px;
+}
+
+.about3 {
+    position: absolute;
+    width: 57%;
+    margin-top: 1135px;
+    right: 168px;
+}
+
+.about4 {
+    position: absolute;
+    width: 57%;
+    margin-top: 1170px;
+    margin-left: 158px;
+}
+
+
+
+
+
+.andbrands1, .andbrands2, .andbrands3, .andbrands4, .andbrands5 {
+    width: 100%;
+}
