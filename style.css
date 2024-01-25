@@ -29,50 +29,51 @@ nav a:hover {
 }
 
 .logohome {
-    margin: -30px 0 0 -30px;
-    width: 120%;
+    margin: -45px 0 0 -50px;
+    width: 130%;
     display: block; 
 }
 
 .inhetkorttekst {
-    width: 70%;
-    height: 100%;
-    margin: -88px 0 -5px 18px;
+    width: 90%;
+    height: auto;
+    margin: -110px 0 -28px -7px;
 }
 
 .inhetkort {
     color: white;
     line-height: 1,5;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
     margin: -120px 90px 0px -110px;
     padding: 0px;
     text-align: justify;
-
     display: inline-block;
     border-radius: 18px;
-    margin: -94px 35px 0 40px;
+    margin: -94px 29px 0 27px;
     padding: 10px, 2px, 5px, 2px;
-    border: 22px solid #B66643;
+    border: 25px solid #B66643;
     background-color: #B66643;
 }
 
 .stoelfotohome, .sfeerfotohome {
-    width: 45%;
+    width: 48%;
     position: absolute;
     height: auto;
 }
 
 .stoelfotohome {
-    margin: -50px 0 50px 22px;
+    margin: -40px 0 50px 8px;
 }
 
 .sfeerfotohome {
-    margin-left: -163px;
-    padding-bottom: 30px;
+    margin: 9px 0 0 -180px;
+    padding-bottom: 20px;
 }
 .omglogoindex {
-    width: 40%;
-    margin: -50px 0 50px 190px;
+    width: 50%;
+    position: relative;
+    margin: -70px 0 50px 170px;
 }
 
 .omglogoduurzaam, .omglogoabout, .omglogobrands {
@@ -88,19 +89,19 @@ nav a:hover {
 }
 
 .fotoduurzaam1 {
-    margin-left: -45px;
-    margin-top: 10px;
+    margin-left: -50px;
+    margin-top: 50px;
 }
 
 .fotoduurzaam2 {
-    margin-left: 120px;
+    margin-left: 123px;
     margin-top: 30px;
 }
 
 .duurzaamtekst {
     position: relative;
     width: 85%;
-    margin: 198px 0 0 -27.8px;
+    margin: 198px 0 0 -33px;
 }
 
 .waaromduurzaam {
@@ -123,7 +124,7 @@ nav a:hover {
 }
 
 .duurzaamtekst1 {
-    margin: -148.5px 23px 0 23px;
+    margin: -148px 20px 0 20px;
 }
 
 .duurzaamtekst2 {
@@ -145,7 +146,80 @@ nav a:hover {
 
 .icoonblaadje2 {
     position: relative;
-    width: 53%;
+    width: 51%;
     margin: 0 0 -160px -42px;
     top: -433px;
+}
+
+.abouttekst {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: -108px;
+}
+
+.vintage, .vintageuitleg {
+    position: absolute;
+    display: inline-block;
+    border: 12px solid #B66643;
+    background-color: #B66643;
+    color: white;
+    border-radius: 18px;
+}
+
+.vintage {
+    font-style: italic;
+    font-size: 24px;
+    top: 120px;
+    padding: 0 5px 13px 8px;
+    margin-left: 123px;
+}
+
+.vintageuitleg {
+    font-size: 17px;
+    margin: 165px 25px 0 123px;
+    border-radius: 0 0 18px 18px;
+    padding-left: 10px;
+}
+
+.fotoabout1 {
+    position: absolute;
+    width: 62.5%;
+    margin: 236px 0 0 116px;
+}
+
+.waaromvintage {
+    width: 73%;
+    margin: 383.5px 0 0 66px;
+}
+
+.uniekestijl {
+    position: absolute;
+    display: inline-block;
+    border: 12px solid #B66643;
+    background-color: #B66643;
+    color: white;
+    border-radius: 18px;
+    margin: 0 24px 0 12px;
+    top: 542px;
+}
+
+.uniekestijl h2 {
+    font-size: 27px;
+    margin: 10px 0 0 154px;
+    padding-bottom: 7px;
+}
+
+.uniekestijl p {
+    text-align: right;
+    font-size: 16.5px;
+    margin: 0 10px 0 0;
+    padding-bottom: 10px;
+}
+
+
+
+.andbrands1, .andbrands2, .andbrands3, .andbrands4, .andbrands5 {
+    width: 100%;
 }
