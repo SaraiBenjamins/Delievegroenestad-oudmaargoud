@@ -12,6 +12,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 nav li {
@@ -227,6 +228,22 @@ nav a:hover {
     border: 12px solid #B66643;
     background-color: #B66643;
     color: white;
+}
+
+.iconabout1 {
+    position: absolute;
+    width: 48%;
+    margin-top: 910px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.iconabout2 {
+    position: absolute;
+    width: 40%;
+    margin-left: 220px;
+    top: 630px;
+    z-index: 1;
 }
 
 .uniekestijl h2 {
